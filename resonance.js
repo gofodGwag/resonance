@@ -2206,7 +2206,7 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		
-		this.harmonicBtn.txt.text = "Show Harmonic Wave";
+		this.harmonicBtn.txt.text = "Hide Harmonic Wave";
 		this.harmonicBtn.addEventListener("click", harmonicBtnfunction.bind(this));
 		this.harmonic_wave.visible = true;
 		function harmonicBtnfunction() {
@@ -2603,7 +2603,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/resonance_atlas_1.png?1638948679603", id:"resonance_atlas_1"}
+		{src:"images/resonance_atlas_1.png?1638950770974", id:"resonance_atlas_1"}
 	],
 	preloads: []
 };
